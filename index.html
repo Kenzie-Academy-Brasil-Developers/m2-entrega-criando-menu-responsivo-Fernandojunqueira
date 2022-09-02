@@ -25,11 +25,11 @@
 <body>
     <header class="flex bb-1">
         <img src="./assets/img/Tech Blog.png" alt="Tech Log" class="logo">
-        <img src="./assets/img/symbolMenu.png" alt="Menu" class="menu">
-        <img src="./assets/img/closeModal.png" alt="close" class="close hidden">
+        <img src="./assets/img/symbolMenu.png" alt="Menu" class="menu" data-modal-open="Menu" id="open" >
+        <img src="./assets/img/closeModal.png" alt="close" class="close hidden" data-modal-open ='close' id="close">
     </header>
     <main>
-        <div class="modalMenu hidden">
+        <div class="modalMenu hidden " data-modal-open = 'close' id="body">
             <ul class="bb-1">
                 <li class="flex">All</li>
                 <li class="flex">CSS</li>
