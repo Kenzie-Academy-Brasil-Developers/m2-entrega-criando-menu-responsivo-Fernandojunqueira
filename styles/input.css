@@ -4,7 +4,7 @@
     padding: 0 32px;
     font-weight: var(--font-weight-2);
     font-size: var(--font-text-1);
-    background-color: var(--color-green-input);
+    background-color: var(--color-grey-5);
     color: var(--color-white);
     border-radius: var(--border-radius-1);
     cursor: pointer;

@@ -6,7 +6,7 @@ body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span,header,u
     border: none;
     background: transparent;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
  ul,ol{
     list-style: none;
@@ -25,10 +25,14 @@ body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span,header,u
     --color-mode:#FFFFFF;
     --color-Black:#000000;
 
-    --button-height-default: 30px;
+    --button-height-default: 59px;
 
     --input-height-default: 38px;
     --input-height-default-modal: 30px;
+
+    --border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    --padding: 0 16px;
 
     --font-title-1: 16px;
 
@@ -44,7 +48,7 @@ body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span,header,u
     --border-radius-2: 4px;
 
     --gap-1: 32px;
-    --gap-2: 20px;
+    --gap-2: 27px;
     --gap-3: 16px;
     --gap-4: 13px;
     --gap-5: 10px;

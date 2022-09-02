@@ -1,7 +1,6 @@
 header{
     height: 80px;
-    padding: 0 16px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: var(--padding);
 }
 .logo{
     object-fit: cover;
@@ -10,6 +9,30 @@ header{
 .menu{
     width: 40px;
 }
+.close{
+    padding: var(--padding);
+}
 main{
-    height: 100vh;
+    height: 90vh;
+}
+ul > li{
+    height: var(--button-height-default);
+    padding: var(--padding);
+    color: var(--color-grey-2);
+}
+.modalMenu > img{
+    position: sticky;
+    left: 29px;
+}
+.modalMenu > p{
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: var(--padding);
+}
+ul  li:hover{
+    background-color: var(--color-grey-6);
+    color: var(--color-black);
 }
