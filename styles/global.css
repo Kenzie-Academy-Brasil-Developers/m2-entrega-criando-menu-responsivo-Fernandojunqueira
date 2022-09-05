@@ -1,0 +1,56 @@
+body,main,p,figure,img,figcaption,form,h1,label,input,div,h2,h3,h4,span,header,ul,li{
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ ul,ol{
+    list-style: none;
+ }
+
+ :root{
+    --color-green-brand:#364FC7;
+
+    --color-grey-1:#212529;
+    --color-grey-2:#868E96;
+    --color-grey-3:#ADB5BD;
+    --color-grey-4:#E9ECEF;
+    --color-grey-5:#F1F3F5;
+    --color-grey-6:#F8F9FA;
+
+    --color-mode:#FFFFFF;
+    --color-Black:#000000;
+
+    --button-height-default: 59px;
+
+    --input-height-default: 38px;
+    --input-height-default-modal: 30px;
+
+    --border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    --padding: 0 16px;
+
+    --font-title-1: 16px;
+
+    --font-text-1: 16px;
+    --font-text-2: 14px;
+    --font-text-3: 12px;
+    
+    --font-weight-1: 500;
+    --font-weight-2: 400;
+    --font-weight-3: 200;
+
+    --border-radius-1: 8px;
+    --border-radius-2: 4px;
+
+    --gap-1: 32px;
+    --gap-2: 27px;
+    --gap-3: 16px;
+    --gap-4: 13px;
+    --gap-5: 10px;
+
+ }

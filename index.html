@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/color.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="./styles/margins.css">
+    <link rel="stylesheet" href="./styles/text.css">
+    <link rel="stylesheet" href="./styles/flex.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/border.css">
+    <link rel="icon" href="./assets/img/cheveron-outline-up 4.png">
+    <title>Mobile</title>
+</head>
+<body>
+    <header class="flex bb-1">
+        <img src="./assets/img/Tech Blog.png" alt="Tech Log" class="logo">
+        <nav class="desktop">
+            <ul class="flex ">
+                <li>All</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </nav>
+        <div class="desktop div">
+            <img src="./assets/img/search.png" alt="lupa" class="lupa desktop">  
+            <input type="text" placeholder="Pesquisar por" class="input-default desktop">
+            <p><img src="./assets/img/profile (1).png" alt="Foto"></p>
+        </div>
+        <img src="./assets/img/symbolMenu.png" alt="Menu" class="menu" data-modal-open="Menu" id="open" >
+        <img src="./assets/img/closeModal.png" alt="close" class="close hidden" data-modal-open ='close' id="close">
+    </header>
+    <main>
+        <div class="modalMenu hidden " data-modal-open = 'close' id="body">
+            <ul class="bb-1">
+                <li class="flex">All</li>
+                <li class="flex">CSS</li>
+                <li class="flex">Javascript</li>
+                <li class="flex">Python</li>
+                <li class="flex">Java</li>
+            </ul>
+            <img src="./assets/img/search.png" alt="lupa">
+            <input type="text" placeholder="Pesquisar por" class="input-default mt-2">
+            <p><img src="./assets/img/profile (1).png" alt="Foto">Samuel Leão</p>
+        </div>
+    </main>
+    <script type="module" src="./src/script.js"></script>
+</body>
+</html>

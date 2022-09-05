@@ -1,0 +1,74 @@
+header{
+    height: 80px;
+    padding: var(--padding);
+}
+.logo{
+    object-fit: cover;
+    width: 91px;
+}
+.menu{
+    width: 40px;
+}
+.close{
+    padding: var(--padding);
+}
+main{
+    height: 90vh;
+}
+.modalMenu ul > li{
+    height: var(--button-height-default);
+    padding: var(--padding);
+    color: var(--color-grey-2);
+}
+.modalMenu > img{
+    position: sticky;
+    left: 29px;
+}
+.modalMenu > p{
+    margin-top: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: var(--padding);
+}
+.modalMenu ul li:hover{
+    background-color: var(--color-grey-6);
+    color: var(--color-black);
+}
+.desktop{
+    display: none;
+}
+
+@media( width > 768px){
+    .desktop{
+        display: block;
+    }
+    .lupa{
+        position: relative;
+        left: 33px;
+    }
+    nav{
+        height: 21px;
+    }
+    .desktop ul > li{
+        height: var(--button-height-default);
+        padding: var(--padding);
+        color: var(--color-grey-2);
+    }
+    .desktop ul > li:hover{
+        color: var(--color-black);
+    }
+    #open{
+        display: none;
+    }
+    .div{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding-right: 70px;
+        gap: 10px;
+    }
+    
+}
